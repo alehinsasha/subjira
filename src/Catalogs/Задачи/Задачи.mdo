@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60c07c19-a263-4749-a719-d0bb806d20da">
+  <producedTypes>
+    <objectType typeId="246fe577-42c2-4bbb-91e4-b27e35ae61c0" valueTypeId="815d8b0d-309e-4622-929d-26a6e346a6a3"/>
+    <refType typeId="9eea3865-ea01-40fd-a616-0a7ec9f311be" valueTypeId="71b5b098-e4ca-4335-8fc6-62b5e2f7ff6e"/>
+    <selectionType typeId="5ef5de48-e141-4608-a22c-c6fe94b67724" valueTypeId="7088d51d-4e0e-409d-8af5-93b434c2a6af"/>
+    <listType typeId="ee33df09-3842-4071-82d9-b1ddcdc3c67d" valueTypeId="d9345fb6-92c8-486c-8ed2-df7fadedce54"/>
+    <managerType typeId="90b8ec8b-10a9-45bf-bee4-d613e9630cb2" valueTypeId="692f6e87-ca94-4e01-a3fc-b9f85cef2cef"/>
+  </producedTypes>
+  <name>Задачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Задачи.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Задачи.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="1bf7c872-0549-4f88-9a30-7ceceb521cf6">
+    <name>ДатаВремяСоздания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d4be441b-1ec8-49f6-a577-510701818cee">
+    <name>ДатаВремяРедактирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменена</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
