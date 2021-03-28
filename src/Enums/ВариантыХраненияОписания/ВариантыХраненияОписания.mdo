@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70aa65be-eb36-4238-bb9d-62b88ead353a">
+  <producedTypes>
+    <refType typeId="d7e8828e-e443-46eb-a3c6-07e2896aa7e1" valueTypeId="34ee4e90-3ead-48fa-a515-f1acc1973ed0"/>
+    <listType typeId="a0e6aecd-5af1-425f-ba6d-459074c52339" valueTypeId="65a86fbe-6245-4f06-861a-edb07e406f40"/>
+    <managerType typeId="d2a60650-89e2-4a34-ae0c-1cc4cdf1955f" valueTypeId="3c2a1601-0d38-4165-af53-77874dbcfa7f"/>
+  </producedTypes>
+  <name>ВариантыХраненияОписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты хранения описания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="110f0b2f-6ac0-4f97-8aa8-368162a99218">
+    <name>ВХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>В хранилище</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9cb5d21-405e-43d1-8e5c-6f70bddd092e">
+    <name>ВФайле</name>
+    <synonym>
+      <key>ru</key>
+      <value>В файле</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

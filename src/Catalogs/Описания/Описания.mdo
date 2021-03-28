@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="249b3fd3-b1d7-4d83-ab15-509435adb5d7">
+  <producedTypes>
+    <objectType typeId="e2f25424-bf42-42f1-8e6d-e017b9a5ca18" valueTypeId="4cc2b60e-facd-4363-91f4-7514c8b2bd0b"/>
+    <refType typeId="6f3b1bb4-fdc7-45d8-ac17-f580356a730e" valueTypeId="2913cf73-0641-4329-b802-08f67d283227"/>
+    <selectionType typeId="cdeec1d7-35b0-4a36-b3d2-5038e58dba83" valueTypeId="95d33ba2-3c80-4068-bd7e-9c17fe444628"/>
+    <listType typeId="1ef99116-6340-471d-9a97-9de7e13ad969" valueTypeId="8f96ef3f-8a24-4bed-b507-252bd99c624e"/>
+    <managerType typeId="5fc86622-a016-4c9e-a51d-8023e5f1e2ec" valueTypeId="14950a70-5440-4c4a-a60e-123a82b7dd4c"/>
+  </producedTypes>
+  <name>Описания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Описания.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Описания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Описание</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="97bb922e-5389-43b6-928e-9b85a2c0ad81">
+    <name>ВариантХраненияОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант хранения описания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыХраненияОписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
