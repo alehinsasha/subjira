@@ -33,6 +33,7 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Задачи.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.Задачи.Form.РаботаСЗадачами</defaultListForm>
   <attributes uuid="1bf7c872-0549-4f88-9a30-7ceceb521cf6">
     <name>ДатаВремяСоздания</name>
     <synonym>
@@ -70,6 +71,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e4546432-2612-404c-9977-13bdb4e3bce6">
+    <name>РаботаСЗадачами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа с задачами</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
