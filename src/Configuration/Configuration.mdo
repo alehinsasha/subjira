@@ -41,9 +41,9 @@
   </languages>
   <catalogs>Catalog.Задачи</catalogs>
   <catalogs>Catalog.Описания</catalogs>
+  <catalogs>Catalog.ПредопределенныеПараметры</catalogs>
   <enums>Enum.ВариантыХраненияОписания</enums>
   <informationRegisters>InformationRegister.ОписанияВХранилищах</informationRegisters>
   <informationRegisters>InformationRegister.ОписанияВФайлах</informationRegisters>
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
-  <informationRegisters>InformationRegister.Настройки</informationRegisters>
 </mdclass:Configuration>

@@ -66,6 +66,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a542e10f-b831-440d-ae21-21419f76e31e">
+    <name>ВариантХраненияОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант хранения описания</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВариантыХраненияОписания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="b1fc64af-5451-4179-aef4-e323cbc5d7a0">
     <name>ФормаЭлемента</name>
     <synonym>
