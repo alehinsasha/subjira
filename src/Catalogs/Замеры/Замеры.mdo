@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ee92567-be1f-4f78-a034-e78bfc40c132">
+  <producedTypes>
+    <objectType typeId="9b045db7-a57a-4052-8282-70c5011250d0" valueTypeId="95f1837b-6f00-4721-abe1-606a4c9a3e09"/>
+    <refType typeId="f47b2266-f126-4911-8fcd-c779a932a403" valueTypeId="07f9cea6-7aa5-49cb-85bd-dc4ad5376193"/>
+    <selectionType typeId="f9a03fd7-2c5f-4ea7-9f46-2f6973b1d7cc" valueTypeId="0d337b25-1b49-4201-9e99-a9c5c46bbdda"/>
+    <listType typeId="4e8534da-5315-47f5-9a7d-09390e65001b" valueTypeId="82374f42-66df-4bd8-9713-e59bd2adbce0"/>
+    <managerType typeId="d9a0426f-24e2-4b53-93fc-6733bdac7912" valueTypeId="a5235451-86fc-4f85-86cb-4ed0242aad07"/>
+  </producedTypes>
+  <name>Замеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Замеры.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Замеры.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

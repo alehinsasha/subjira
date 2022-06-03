@@ -17,22 +17,6 @@
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <dimensions uuid="b4829050-2452-418a-a47f-969b884847db">
-    <name>Объект</name>
-    <synonym>
-      <key>ru</key>
-      <value>Объект</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Задачи</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <mainFilter>true</mainFilter>
-  </dimensions>
   <dimensions uuid="d014c1ae-4d7c-4c28-aee1-ad8c54742e7f">
     <name>Описание</name>
     <synonym>
@@ -46,22 +30,28 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b4829050-2452-418a-a47f-969b884847db">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заметки</types>
+      <types>CatalogRef.Задачи</types>
+      <types>CatalogRef.Проект</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <commands uuid="14217c00-9211-47ee-a7fc-256f5d6efb14">
-    <name>ВыбратьОписание</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выбрать описание</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType>
-      <types>CatalogRef.Задачи</types>
-    </commandParameterType>
-    <representation>Picture</representation>
-    <picture xsi:type="core:PictureRef">
-      <picture>StdPicture.ChooseValue</picture>
-    </picture>
-  </commands>
 </mdclass:InformationRegister>

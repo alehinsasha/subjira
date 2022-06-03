@@ -39,11 +39,40 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.РМ_РедакторMarkdown</subsystems>
+  <commonPictures>CommonPicture.РМ_Скрепка</commonPictures>
+  <commonPictures>CommonPicture.РМ_ВставитьКартинкуИзБуфера</commonPictures>
+  <commonPictures>CommonPicture.РМ_ЗаголовокH1</commonPictures>
+  <commonPictures>CommonPicture.РМ_ЗаголовокH2</commonPictures>
+  <commonPictures>CommonPicture.РМ_ЗаголовокH3</commonPictures>
+  <commonPictures>CommonPicture.РМ_Жирный</commonPictures>
+  <commonPictures>CommonPicture.РМ_Зачеркнутый</commonPictures>
+  <commonPictures>CommonPicture.РМ_Курсив</commonPictures>
+  <commonPictures>CommonPicture.РМ_МаркерыСписок</commonPictures>
+  <commonPictures>CommonPicture.РМ_НумерованныйСписок</commonPictures>
+  <commonPictures>CommonPicture.РМ_Цитата</commonPictures>
+  <commonPictures>CommonPicture.РМ_Markdown</commonPictures>
+  <commonPictures>CommonPicture.РМ_Ссылка</commonPictures>
+  <commonPictures>CommonPicture.РМ_ПрограммныйКод</commonPictures>
+  <commonPictures>CommonPicture.РМ_СписокЗадач</commonPictures>
+  <commonPictures>CommonPicture.РМ_Таблица</commonPictures>
+  <commonPictures>CommonPicture.РМ_Синтаксис</commonPictures>
+  <commonTemplates>CommonTemplate.РМ_КомпонентаДляРаботыСБуферомОбмена</commonTemplates>
+  <commonTemplates>CommonTemplate.РМ_ВариантыПодсветки</commonTemplates>
+  <commonTemplates>CommonTemplate.РМ_highligthjs</commonTemplates>
+  <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
+  <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownКлиентСервер</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
+  <commonModules>CommonModule.РМ_БуферОбменаКлиент</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownПереопределяемый</commonModules>
+  <commonModules>CommonModule.РМ_MarkdownКлиентПереопределяемый</commonModules>
   <catalogs>Catalog.Задачи</catalogs>
+  <catalogs>Catalog.Замеры</catalogs>
+  <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.Описания</catalogs>
   <catalogs>Catalog.ПредопределенныеПараметры</catalogs>
-  <enums>Enum.ВариантыХраненияОписания</enums>
+  <catalogs>Catalog.Проект</catalogs>
   <informationRegisters>InformationRegister.ОписанияВХранилищах</informationRegisters>
-  <informationRegisters>InformationRegister.ОписанияВФайлах</informationRegisters>
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
 </mdclass:Configuration>

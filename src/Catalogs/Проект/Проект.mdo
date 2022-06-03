@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b6c3e9-9221-4eaf-8bb7-c599aa60b364">
+  <producedTypes>
+    <objectType typeId="f0c83c05-e398-4030-9aca-c83a891012a2" valueTypeId="a13a7070-fd68-446c-95b8-9c33435c8c8a"/>
+    <refType typeId="a6f7d82c-c72e-434f-8aab-82b1283a4aff" valueTypeId="55304354-73a4-4e1e-8792-b5b66d49a911"/>
+    <selectionType typeId="1987befa-b831-4ed4-8f3f-238c5dd65582" valueTypeId="e3c18042-2aa2-451b-9057-27d91ddd45b8"/>
+    <listType typeId="2692b4c2-015d-4d50-92a0-6b8e74234002" valueTypeId="cf02c9d0-66d0-450a-b56b-fa1b4d58e3d5"/>
+    <managerType typeId="fc87f544-36cd-40d5-8ca9-0c4824b347b9" valueTypeId="fa13b1ff-9103-45b3-b011-e48709b9780e"/>
+  </producedTypes>
+  <name>Проект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проект</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Проект.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Проект.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
