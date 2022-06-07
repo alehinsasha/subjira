@@ -118,6 +118,10 @@
           </userVisible>
           <horizontalAlign>Left</horizontalAlign>
         </autoCommandBar>
+        <handlers>
+          <event>OnActivateRow</event>
+          <name>СписокПриАктивизацииСтроки</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -262,7 +266,6 @@
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
-        <header>true</header>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
@@ -544,9 +547,26 @@
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ
+	Задачи.Ссылка КАК Ссылка,
+	Задачи.ПометкаУдаления КАК ПометкаУдаления,
+	Задачи.Владелец КАК Владелец,
+	Задачи.ДатаВремяСоздания КАК ДатаВремяСоздания,
+	Задачи.ДатаВремяРедактирования КАК ДатаВремяРедактирования,
+	Задачи.Заголовок КАК Заголовок,
+	Задачи.Предопределенный КАК Предопределенный,
+	Задачи.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
+	ОписанияВХранилищах.Хранилище КАК ХранилищеОписания
+ИЗ
+	Справочник.Задачи КАК Задачи
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОписанияПоОбъектам КАК ОписанияПоОбъектам
+		ПО Задачи.Ссылка = ОписанияПоОбъектам.Объект
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОписанияВХранилищах КАК ОписанияВХранилищах
+		ПО ОписанияПоОбъектам.Описание = ОписанияВХранилищах.Описание</queryText>
       <mainTable>Catalog.Задачи</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
     </extInfo>
