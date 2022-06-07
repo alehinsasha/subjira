@@ -72,7 +72,7 @@
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.Описания</catalogs>
   <catalogs>Catalog.ПредопределенныеПараметры</catalogs>
-  <catalogs>Catalog.Проект</catalogs>
+  <catalogs>Catalog.Проекты</catalogs>
   <informationRegisters>InformationRegister.ОписанияВХранилищах</informationRegisters>
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
 </mdclass:Configuration>
