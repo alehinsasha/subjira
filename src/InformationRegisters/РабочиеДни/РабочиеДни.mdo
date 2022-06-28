@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c33c8b50-5814-4d09-92e6-7dbceb51db2d">
+  <producedTypes>
+    <selectionType typeId="17befee3-3555-4ba6-b927-61d529ecc4d2" valueTypeId="713ee7b1-74e2-4a8b-9ddc-8c32fdeda93b"/>
+    <listType typeId="f8c16cf6-963e-4b43-bffd-b76aba966daf" valueTypeId="3e36ee3b-8901-4309-b8f8-246ff0363001"/>
+    <managerType typeId="fae1b9a2-314a-4d2a-ab0d-6f5484cb2363" valueTypeId="4d02d76d-623e-4532-92f5-ded22db9d85c"/>
+    <recordSetType typeId="b3bbafcc-13af-43a8-a72f-5eb110b51b00" valueTypeId="ccfd8cab-53b1-427b-88ca-e075f74ae07d"/>
+    <recordKeyType typeId="4dfb2ccf-d411-4828-84ca-9d2a4d97d0aa" valueTypeId="4efb73a8-a3c3-4657-a3de-1005cae65c90"/>
+    <recordType typeId="4f8d1d15-4001-49a3-bd21-972203f351b2" valueTypeId="89561698-ff29-4511-a5a6-1d4130200212"/>
+    <recordManagerType typeId="66bd17e1-21e6-4817-83ea-51776311c39e" valueTypeId="132f9fcb-40fd-4be6-b722-b287c27ff1a6"/>
+  </producedTypes>
+  <name>РабочиеДни</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочие дни</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.РабочиеДни.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5be041b8-a37a-49a4-82ee-4bade2a47cda">
+    <name>День</name>
+    <synonym>
+      <key>ru</key>
+      <value>День</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="479eb051-54df-4bc8-93a8-7ce1cf39c5d1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

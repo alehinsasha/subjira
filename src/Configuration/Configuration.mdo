@@ -80,4 +80,5 @@
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
   <informationRegisters>InformationRegister.Трудозатраты</informationRegisters>
   <informationRegisters>InformationRegister.Напоминания</informationRegisters>
+  <informationRegisters>InformationRegister.РабочиеДни</informationRegisters>
 </mdclass:Configuration>
