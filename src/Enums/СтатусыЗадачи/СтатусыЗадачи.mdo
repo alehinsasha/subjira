@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f6f27796-571b-405a-8868-14ce76caff14">
+  <producedTypes>
+    <refType typeId="92abcc3d-006a-4730-a07e-8a9225e8f860" valueTypeId="7c600fe7-4bf4-42bc-969b-bc07bfe96442"/>
+    <listType typeId="44621ad5-cbfb-4d95-8933-92398087593d" valueTypeId="7605b6db-bb3a-4d96-85ed-e3c7273f603e"/>
+    <managerType typeId="7850dbfb-5194-42a5-b892-c8aadb1dd5a1" valueTypeId="b98b3310-82dc-49af-a3e4-97790317e5b0"/>
+  </producedTypes>
+  <name>СтатусыЗадачи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задачи</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="de64f40d-6e50-4964-b386-a0b4b7facb8c">
+    <name>Новая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="edebc345-2b23-400b-a4bb-50e98f744661">
+    <name>Ожидает</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидает</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3131ffbf-064a-4f34-ac6f-e025e67f1bc6">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36e86b31-6dbd-4c7d-bd0c-0df6e762cf16">
+    <name>Отложена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9ad21a65-7bd5-4c2e-bd35-109d9d4f864a">
+    <name>Повторяется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторяется</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc195daf-a3a4-46a4-83c9-53939495c717">
+    <name>НаПроверке</name>
+    <synonym>
+      <key>ru</key>
+      <value>На проверке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70790285-791f-4cb7-a1b5-77b16ff07a64">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

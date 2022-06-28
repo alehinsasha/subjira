@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="185b82b0-4252-433e-95b2-1527151d7c2c">
+  <producedTypes>
+    <selectionType typeId="269393e1-49c2-485f-86b3-892268480767" valueTypeId="908e97d7-b11b-4132-b3b4-832c5eb3ef68"/>
+    <listType typeId="621ba399-aeba-4cef-974e-375532920122" valueTypeId="0bf9f087-1f9d-481c-b319-702e18479f95"/>
+    <managerType typeId="88cb909c-13d9-4944-be68-7416540efa13" valueTypeId="4bea598d-e960-4d79-b550-d6f307b6f015"/>
+    <recordSetType typeId="9191cf56-4ba3-411a-9b29-522d7e640172" valueTypeId="f2e04d12-95b1-4034-b14c-caebf026fe81"/>
+    <recordKeyType typeId="b8a31950-0cfa-42a2-b0f4-09652fbbfd24" valueTypeId="ac05e002-e4e3-4396-97af-7c11406270b8"/>
+    <recordType typeId="59c99e03-bbcf-4b4f-8251-2c33c98608ed" valueTypeId="363c91b7-d711-4a80-8162-d33347df5948"/>
+    <recordManagerType typeId="299fd531-1ed6-4a72-a758-6531d46ccf08" valueTypeId="e7939810-52ac-4446-8212-c36504240857"/>
+  </producedTypes>
+  <name>Напоминания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="254f3180-10bd-4df2-bf68-d8a66689bb84">
+    <name>ДатаВремяНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата время напоминания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="9291e48a-285f-4ee9-81d7-07fe6b8b8e96">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="27887cd2-5a98-4a83-9981-16e35f63ea8c">
+    <name>Объект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>CatalogRef.Задачи</types>
+      <types>CatalogRef.Заметки</types>
+      <types>CatalogRef.Проекты</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

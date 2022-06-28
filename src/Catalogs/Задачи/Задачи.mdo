@@ -47,11 +47,11 @@
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Задачи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Задачи.Form.РаботаСЗадачами</defaultListForm>
-  <attributes uuid="1bf7c872-0549-4f88-9a30-7ceceb521cf6">
-    <name>ДатаВремяСоздания</name>
+  <attributes uuid="d4be441b-1ec8-49f6-a577-510701818cee">
+    <name>ДатаВремяРедактирования</name>
     <synonym>
       <key>ru</key>
-      <value>Создана</value>
+      <value>Изменена</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -63,11 +63,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="d4be441b-1ec8-49f6-a577-510701818cee">
-    <name>ДатаВремяРедактирования</name>
+  <attributes uuid="1bf7c872-0549-4f88-9a30-7ceceb521cf6">
+    <name>ДатаВремяСоздания</name>
     <synonym>
       <key>ru</key>
-      <value>Изменена</value>
+      <value>Создана</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -94,6 +94,56 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="56adf847-d324-4e73-98f7-6130168b31e7">
+    <name>Проект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="241d1647-499c-41c2-bdcb-97d22bac49c4">
+    <name>СсылкаНаСистемуУчетаЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на систему учета задач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="672971e4-2a96-4695-8121-9f2b6bd31093">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СтатусыЗадачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СтатусыЗадачи.EnumValue.Новая</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

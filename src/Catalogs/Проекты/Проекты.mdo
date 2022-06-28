@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b6c3e9-9221-4eaf-8bb7-c599aa60b364">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b6c3e9-9221-4eaf-8bb7-c599aa60b364">
   <producedTypes>
     <objectType typeId="f0c83c05-e398-4030-9aca-c83a891012a2" valueTypeId="a13a7070-fd68-446c-95b8-9c33435c8c8a"/>
     <refType typeId="a6f7d82c-c72e-434f-8aab-82b1283a4aff" valueTypeId="55304354-73a4-4e1e-8792-b5b66d49a911"/>
@@ -30,4 +30,37 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="f7fee4a0-efca-44c5-8f05-6096fffa4242">
+    <name>ЛичноеВремя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное время</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7d6917a6-1410-4d5e-bbf9-b1c5978aed8f">
+    <name>СсылкаНаСистемуУчетаЗадач</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на систему учета задач</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

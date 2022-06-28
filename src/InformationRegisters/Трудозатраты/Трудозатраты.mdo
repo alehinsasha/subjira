@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="248041b7-a621-405b-abce-50318c50e61c">
+  <producedTypes>
+    <selectionType typeId="f14e2a8e-1a21-4ee2-9603-c4dc4fe046f3" valueTypeId="a09adcbb-cf52-46a6-aa85-39f476c73b98"/>
+    <listType typeId="049079d0-3c6c-43c3-b5e0-0fe3679ae1dd" valueTypeId="926d9e32-9a07-44a2-88ff-825a5657dbbc"/>
+    <managerType typeId="4ef12921-f4b1-4bd1-8587-bf24f76cf133" valueTypeId="487a32fa-8651-4427-8cf2-b6ed7ba17dbe"/>
+    <recordSetType typeId="4792d105-63d7-4d74-a761-43592628a10a" valueTypeId="71630a0d-d6f0-44d6-be25-e582f3c7390f"/>
+    <recordKeyType typeId="55e9928f-9561-415e-9eb7-e759cf9251b9" valueTypeId="a661a130-e35c-4aa5-b8eb-c94484ce3a5b"/>
+    <recordType typeId="e0a5d5a8-65a1-4dbb-a365-ec5237e2ebce" valueTypeId="232943e1-8673-4372-bcf2-a33d707bd517"/>
+    <recordManagerType typeId="747eac05-52f9-40ad-a9dc-f4c6348f97c5" valueTypeId="a1d14f7f-a404-4071-a0c9-68b7a2445523"/>
+  </producedTypes>
+  <name>Трудозатраты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Трудозатраты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7064d4bc-e307-41d7-9a67-0e07a1a1c0f1">
+    <name>ЗатраченоВСекундах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затрачено в секундах</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b4bbc9d0-ec6f-43d0-8210-1dfbd4cffd17">
+    <name>Затрачено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затрачено</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="501e501c-1be9-4ca7-8f15-5a1f36fa1607">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Задачи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
