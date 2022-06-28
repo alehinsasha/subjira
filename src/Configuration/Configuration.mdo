@@ -57,6 +57,7 @@
   <commonPictures>CommonPicture.РМ_СписокЗадач</commonPictures>
   <commonPictures>CommonPicture.РМ_Ссылка</commonPictures>
   <commonPictures>CommonPicture.РМ_Цитата</commonPictures>
+  <sessionParameters>SessionParameter.ТекущийПроект</sessionParameters>
   <commonTemplates>CommonTemplate.РМ_highligthjs</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_ВариантыПодсветки</commonTemplates>
