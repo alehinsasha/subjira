@@ -9,6 +9,7 @@
     <replacementDate>0001-01-01T00:00:00</replacementDate>
     <itemId>53bcecdc-fb61-4b10-8cb6-0860f06f4dc3</itemId>
   </items>
+  <newItemsTextType>FormattedString</newItemsTextType>
   <alignItemBoundariesByTimeScale>true</alignItemBoundariesByTimeScale>
   <showWrappedHeaders>true</showWrappedHeaders>
   <showWrappedTimeScaleHeaders>true</showWrappedTimeScaleHeaders>
@@ -30,7 +31,7 @@
   <font xsi:type="core:AutoFont"/>
   <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
   <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
-  <itemsTimeRepresentation>BeginTime</itemsTimeRepresentation>
+  <itemsTimeRepresentation>BeginAndEndTime</itemsTimeRepresentation>
   <timeScale>
     <placement>Left</placement>
     <levels>
@@ -58,4 +59,5 @@
     <begin>2021-05-03T00:00:00</begin>
     <end>2021-05-03T23:59:59</end>
   </periods>
+  <fixDimensionsHeader>false</fixDimensionsHeader>
 </planner:PlannerSettings>

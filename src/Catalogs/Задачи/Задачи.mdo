@@ -97,22 +97,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="56adf847-d324-4e73-98f7-6130168b31e7">
-    <name>Проект</name>
-    <synonym>
-      <key>ru</key>
-      <value>Проект</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Проекты</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="241d1647-499c-41c2-bdcb-97d22bac49c4">
     <name>СсылкаНаСистемуУчетаЗадач</name>
     <synonym>

@@ -6,21 +6,135 @@
     <items xsi:type="form:FormGroup">
       <name>ГруппаПланировщик</name>
       <id>26</id>
-      <items xsi:type="form:FormField">
-        <name>Трудозатраты</name>
-        <id>28</id>
+      <items xsi:type="form:FormGroup">
+        <name>Группа1</name>
+        <id>99</id>
+        <items xsi:type="form:FormField">
+          <name>ИтогоТрудозатратыЗаДень</name>
+          <id>118</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ИтогоТрудозатратыЗаДень</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>ИтогоТрудозатратыЗаДеньРасширеннаяПодсказка</name>
+            <id>120</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИтогоТрудозатратыЗаДеньКонтекстноеМеню</name>
+            <id>119</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>LabelField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:LabelFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <font xsi:type="core:FontDef">
+              <height>8.0</height>
+              <bold>true</bold>
+            </font>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ВыбратьДатуВизуализацииТрудозатрат</name>
+          <id>103</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ВыбратьДатуВизуализацииТрудозатратРасширеннаяПодсказка</name>
+            <id>104</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.ВыбратьДатуВизуализацииТрудозатрат</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <shapeRepresentation>None</shapeRepresentation>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ОбновитьВизуализациюТрудозатрат</name>
+          <id>105</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОбновитьВизуализациюТрудозатратРасширеннаяПодсказка</name>
+            <id>106</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualButton</type>
+          <commandName>Form.Command.ОбновитьВизуализациюТрудозатрат</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <shapeRepresentation>None</shapeRepresentation>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>Трудозатраты</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
+        <title>
+          <key>ru</key>
+          <value>Группа1</value>
+        </title>
         <extendedTooltip>
-          <name>ТрудозатратыРасширеннаяПодсказка</name>
-          <id>30</id>
+          <name>Группа1РасширеннаяПодсказка</name>
+          <id>100</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -33,28 +147,202 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <contextMenu>
-          <name>ТрудозатратыКонтекстноеМеню</name>
-          <id>29</id>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>Группа2</name>
+        <id>101</id>
+        <items xsi:type="form:FormField">
+          <name>ПланировщикТрудозатрат</name>
+          <id>28</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>PlannerField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:PlannerFieldExtInfo">
-          <width>50</width>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ПланировщикТрудозатрат</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>ПланировщикТрудозатратРасширеннаяПодсказка</name>
+            <id>30</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПланировщикТрудозатратКонтекстноеМеню</name>
+            <id>29</id>
+            <items xsi:type="form:Button">
+              <name>ПланировщикТрудозатратКонтекстноеМенюОписатьЗамер</name>
+              <id>113</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ПланировщикТрудозатратКонтекстноеМенюОписатьЗамерРасширеннаяПодсказка</name>
+                <id>114</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.ОписатьЗамер</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+          </contextMenu>
+          <type>PlannerField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:PlannerFieldExtInfo">
+            <handlers>
+              <event>BeforeCreate</event>
+              <name>ПланировщикТрудозатратПередСозданием</name>
+            </handlers>
+            <handlers>
+              <event>OnEditEnd</event>
+              <name>ПланировщикТрудозатратПриОкончанииРедактирования</name>
+            </handlers>
+            <handlers>
+              <event>BeforeDelete</event>
+              <name>ПланировщикТрудозатратПередУдалением</name>
+            </handlers>
+            <handlers>
+              <event>Selection</event>
+              <name>ПланировщикТрудозатратВыбор</name>
+            </handlers>
+            <handlers>
+              <event>BeforeStartQuickEdit</event>
+              <name>ПланировщикТрудозатратПередНачаломБыстрогоРедактирования</name>
+            </handlers>
+            <width>50</width>
+            <autoMaxWidth>true</autoMaxWidth>
+            <height>10</height>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+            <timeScaleItemHyperlink>true</timeScaleItemHyperlink>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>Прогресс</name>
+          <id>83</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Прогресс</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <extendedTooltip>
+            <name>ПрогрессРасширеннаяПодсказка</name>
+            <id>85</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ПрогрессКонтекстноеМеню</name>
+            <id>84</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>ProgressBarField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:ProgressBarFieldExtInfo">
+            <width>2</width>
+            <height>1</height>
+            <autoMaxHeight>true</autoMaxHeight>
+            <verticalStretch>true</verticalStretch>
+            <maxValue>28800</maxValue>
+            <orientation>Vertical</orientation>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа2</value>
+        </title>
+        <extendedTooltip>
+          <name>Группа2РасширеннаяПодсказка</name>
+          <id>102</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
-          <height>10</height>
           <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
-          <verticalStretch>true</verticalStretch>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>AlwaysHorizontal</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -83,7 +371,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>HorizontalIfPossible</group>
+        <group>Vertical</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -598,6 +886,10 @@
           <event>OnActivateRow</event>
           <name>СписокПриАктивизацииСтроки</name>
         </handlers>
+        <handlers>
+          <event>Selection</event>
+          <name>СписокВыбор</name>
+        </handlers>
         <searchStringAddition>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -947,9 +1239,6 @@
       <segments>Список.Ссылка</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Описание</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Владелец</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
@@ -960,14 +1249,10 @@
 	Задачи.Владелец КАК Владелец,
 	Задачи.ДатаВремяСоздания КАК ДатаВремяСоздания,
 	Задачи.ДатаВремяРедактирования КАК ДатаВремяРедактирования,
-	Задачи.Заголовок КАК Заголовок,
-	Задачи.Предопределенный КАК Предопределенный,
-	Задачи.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
-	ОписанияПоОбъектам.Описание
+	Задачи.СсылкаНаСистемуУчетаЗадач,
+	Задачи.Статус
 ИЗ
-	Справочник.Задачи КАК Задачи
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ОписанияПоОбъектам КАК ОписанияПоОбъектам
-		ПО Задачи.Ссылка = ОписанияПоОбъектам.Объект</queryText>
+	Справочник.Задачи КАК Задачи</queryText>
       <mainTable>Catalog.Задачи</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -977,10 +1262,10 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>Трудозатраты</name>
+    <name>ПланировщикТрудозатрат</name>
     <title>
       <key>ru</key>
-      <value>Трудозатраты</value>
+      <value>Планировщик трудозатрат</value>
     </title>
     <id>2</id>
     <valueType>
@@ -1012,6 +1297,121 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>Прогресс</name>
+    <title>
+      <key>ru</key>
+      <value>Прогресс</value>
+    </title>
+    <id>4</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>50</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДатаПланирования</name>
+    <title>
+      <key>ru</key>
+      <value>Дата планирования</value>
+    </title>
+    <id>5</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИтогоТрудозатратыЗаДень</name>
+    <title>
+      <key>ru</key>
+      <value>Итого трудозатраты за день</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <formCommands>
+    <name>ВыбратьДатуВизуализацииТрудозатрат</name>
+    <title>
+      <key>ru</key>
+      <value>Выбрать дату визуализации трудозатрат</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SetDateInterval</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыбратьДатуВизуализацииТрудозатрат</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОбновитьВизуализациюТрудозатрат</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить визуализацию трудозатрат</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.Refresh</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОбновитьВизуализациюТрудозатрат</name>
+      </handler>
+    </action>
+    <representation>Picture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОписатьЗамер</name>
+    <title>
+      <key>ru</key>
+      <value>Описать замер</value>
+    </title>
+    <id>4</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОписатьЗамер</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

@@ -83,10 +83,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="0b0232d6-29c2-4cf5-9811-ab2d41234496">
-    <name>Описание</name>
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Описание</value>
+      <value>Комментарий</value>
     </synonym>
     <type>
       <types>String</types>
