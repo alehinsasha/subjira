@@ -10,7 +10,17 @@
     <value>Трудозатраты</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.Трудозатраты.Form.ФормаОтчета</defaultForm>
   <mainDataCompositionSchema>Report.Трудозатраты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="82216821-0270-4e10-9fbc-a3d93f2b8ca3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="76205bb3-b196-4e6a-acab-bbbb46533d0a">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
@@ -19,4 +29,16 @@
     </synonym>
     <templateType>DataCompositionSchema</templateType>
   </templates>
+  <commands uuid="3c88b59b-9149-40e6-ab69-d2f294121961">
+    <name>СформироватьОтчетОТрудозатратах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудозатраты</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Задачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Report>
