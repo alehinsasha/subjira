@@ -189,6 +189,7 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -201,7 +202,7 @@
     <name>Отчет</name>
     <id>1</id>
     <valueType>
-      <types>ReportObject.Трудозатраты</types>
+      <types>ReportObject.ОтчетОТрудозатратах</types>
     </valueType>
     <view>
       <common>true</common>
@@ -258,6 +259,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>РежимОтраженияТрудозатрат</segments>
+    </settingsSavedData>
   </attributes>
   <commandInterface>
     <navigationPanel/>

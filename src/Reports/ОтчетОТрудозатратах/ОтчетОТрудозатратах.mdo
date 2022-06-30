@@ -4,14 +4,14 @@
     <objectType typeId="5d008a80-7519-458d-b693-2869f15a2ff5" valueTypeId="739f51b8-5768-4831-980f-9886447ac950"/>
     <managerType typeId="bf19c408-7417-43d5-89b5-e79b9a7c7242" valueTypeId="d382e40a-987a-4dd9-94cb-fa1fd3d616c6"/>
   </producedTypes>
-  <name>Трудозатраты</name>
+  <name>ОтчетОТрудозатратах</name>
   <synonym>
     <key>ru</key>
-    <value>Трудозатраты</value>
+    <value>Отчет о трудозатратах</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>Report.Трудозатраты.Form.ФормаОтчета</defaultForm>
-  <mainDataCompositionSchema>Report.Трудозатраты.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultForm>Report.ОтчетОТрудозатратах.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетОТрудозатратах.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
   <forms uuid="82216821-0270-4e10-9fbc-a3d93f2b8ca3">
     <name>ФормаОтчета</name>
     <synonym>
