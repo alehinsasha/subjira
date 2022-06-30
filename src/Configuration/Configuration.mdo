@@ -16,6 +16,9 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <vendor>Алехин Александр Николаевич</vendor>
+  <version>1.0.0.1</version>
+  <updateCatalogAddress>https://github.com/alehinsasha/developer_assistant/releases</updateCatalogAddress>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
