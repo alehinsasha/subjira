@@ -24,10 +24,6 @@
   </wrappedTimeScaleHeaderFormat>
   <periodicVariantRepetition>1</periodicVariantRepetition>
   <periodicVariantUnit>Day</periodicVariantUnit>
-  <border xsi:type="core:BorderDef">
-    <style>Single</style>
-    <width>1</width>
-  </border>
   <font xsi:type="core:AutoFont"/>
   <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
   <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>
@@ -59,5 +55,5 @@
     <begin>2021-05-03T00:00:00</begin>
     <end>2021-05-03T23:59:59</end>
   </periods>
-  <fixDimensionsHeader>false</fixDimensionsHeader>
+  <itemsBehaviorWhenSpaceInsufficient>ShowAllItems</itemsBehaviorWhenSpaceInsufficient>
 </planner:PlannerSettings>
