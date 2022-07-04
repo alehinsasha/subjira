@@ -100,6 +100,80 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
+    <name>Вид</name>
+    <id>19</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Вид</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ВидРасширеннаяПодсказка</name>
+      <id>21</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВидКонтекстноеМеню</name>
+      <id>20</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>RadioButtonField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+      <radioButtonsType>Tumbler</radioButtonsType>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыЗадач.EnumValue.Анализ</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыЗадач.EnumValue.Разработка</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыЗадач.EnumValue.Тестирование</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <presentation>
+          <key>ru</key>
+          <value>Исправление ошибок</value>
+        </presentation>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыЗадач.EnumValue.ИсправлениеОшибок</value>
+        </value>
+      </choiceList>
+      <choiceList>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.ВидыЗадач.EnumValue.Консультирование</value>
+        </value>
+      </choiceList>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormField">
     <name>Статус</name>
     <id>16</id>
     <visible>true</visible>

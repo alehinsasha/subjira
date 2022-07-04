@@ -82,6 +82,7 @@
   <catalogs>Catalog.Описания</catalogs>
   <catalogs>Catalog.Проекты</catalogs>
   <enums>Enum.СтатусыЗадачи</enums>
+  <enums>Enum.ВидыЗадач</enums>
   <reports>Report.ОтчетОТрудозатратах</reports>
   <informationRegisters>InformationRegister.ОписанияВХранилищах</informationRegisters>
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>

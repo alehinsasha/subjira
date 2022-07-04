@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c387214c-3ba9-4a84-93b0-fe2f68045f3d">
+  <producedTypes>
+    <refType typeId="a0586e15-5fea-4ac4-852c-c8b8237a6bd8" valueTypeId="6b7f39d4-2cc0-4ab7-b9be-385208c08117"/>
+    <listType typeId="2c8fc6af-3de3-47c6-bbae-6e23583893f9" valueTypeId="062e97c3-3f67-4257-b297-fee3cbbb24db"/>
+    <managerType typeId="24e6616e-9113-436e-a1e5-5604d4b40a48" valueTypeId="34cf7e90-8537-4ce1-9fd1-4627e1b8c83c"/>
+  </producedTypes>
+  <name>ВидыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды задач</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="782d14a5-365c-428b-9ef8-ef3452d452be">
+    <name>Анализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="289aec07-ace3-4d4b-94d4-47181be158ce">
+    <name>Разработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5ed86a2-d8a8-4eb5-9a14-f65200ae7232">
+    <name>Тестирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7557995e-130f-4712-9a06-0da562bf919d">
+    <name>ИсправлениеОшибок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправление ошибок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a3ec931-a524-4c44-802a-b0009c150175">
+    <name>Консультирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консультирование</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
