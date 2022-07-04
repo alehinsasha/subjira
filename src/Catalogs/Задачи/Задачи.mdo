@@ -46,7 +46,6 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.Задачи.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.Задачи.Form.РаботаСЗадачами</defaultListForm>
   <attributes uuid="d4be441b-1ec8-49f6-a577-510701818cee">
     <name>ДатаВремяРедактирования</name>
     <synonym>

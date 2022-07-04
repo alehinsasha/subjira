@@ -248,6 +248,10 @@
             <event>BeforeStartQuickEdit</event>
             <name>ПланировщикТрудозатратПередНачаломБыстрогоРедактирования</name>
           </handlers>
+          <handlers>
+            <event>OnActivate</event>
+            <name>ПланировщикТрудозатратПриАктивизации</name>
+          </handlers>
           <width>50</width>
           <autoMaxWidth>true</autoMaxWidth>
           <height>10</height>
@@ -1133,6 +1137,57 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ТекущаяЗадача</name>
+      <id>123</id>
+      <titleTextColor xsi:type="core:ColorRef">
+        <color>Web.LightGray</color>
+      </titleTextColor>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ТекущаяЗадача</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ТекущаяЗадачаРасширеннаяПодсказка</name>
+        <id>125</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТекущаяЗадачаКонтекстноеМеню</name>
+        <id>124</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Web.Gray</color>
+        </textColor>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1310,6 +1365,23 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекущаяЗадача</name>
+    <title>
+      <key>ru</key>
+      <value>Текущая задача</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>CatalogRef.Задачи</types>
     </valueType>
     <view>
       <common>true</common>

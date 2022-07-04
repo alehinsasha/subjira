@@ -33,21 +33,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="9291e48a-285f-4ee9-81d7-07fe6b8b8e96">
-    <name>Завершено</name>
-    <synonym>
-      <key>ru</key>
-      <value>Завершено</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <dimensions uuid="27887cd2-5a98-4a83-9981-16e35f63ea8c">
     <name>Объект</name>
     <synonym>
@@ -67,7 +52,36 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="2ec2a148-b25e-4ca4-902d-b9c7f6c82231">
+    <name>ФормаНапоминания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма напоминания</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="4de5a588-8469-41c4-bd7a-eab680a85f68">
+    <name>Напомнить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напомнить</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Проекты</types>
+      <types>CatalogRef.Заметки</types>
+      <types>CatalogRef.Задачи</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Picture</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.ScheduledJob</picture>
+    </picture>
+  </commands>
 </mdclass:InformationRegister>

@@ -73,6 +73,8 @@
   <commonModules>CommonModule.РМ_MarkdownПереопределяемый</commonModules>
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
   <commonModules>CommonModule.РМ_БуферОбменаКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
   <constants>Constant.ПредставлениеСистемыУчетаЗадач</constants>
   <catalogs>Catalog.Задачи</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
