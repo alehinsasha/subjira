@@ -64,4 +64,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="3a172896-be40-4c4c-910b-800af0591ff2">
+    <name>ФормаПомощникСозданияВыбораОписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помощник создать/выбрать описание</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
