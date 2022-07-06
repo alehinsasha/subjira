@@ -64,11 +64,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="3a172896-be40-4c4c-910b-800af0591ff2">
-    <name>ФормаПомощникСозданияВыбораОписания</name>
+  <forms uuid="fb429194-eb06-477c-a065-9a068e434b27">
+    <name>ФормаВыбораОписания</name>
     <synonym>
       <key>ru</key>
-      <value>Помощник создать/выбрать описание</value>
+      <value>Выбор описания</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

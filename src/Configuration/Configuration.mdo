@@ -65,7 +65,10 @@
   <commonTemplates>CommonTemplate.РМ_showdown</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_ВариантыПодсветки</commonTemplates>
   <commonTemplates>CommonTemplate.РМ_КомпонентаДляРаботыСБуферомОбмена</commonTemplates>
+  <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <commonModules>CommonModule.РМ_MarkdownКлиент</commonModules>
   <commonModules>CommonModule.РМ_MarkdownКлиентПереопределяемый</commonModules>
@@ -73,8 +76,6 @@
   <commonModules>CommonModule.РМ_MarkdownПереопределяемый</commonModules>
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
   <commonModules>CommonModule.РМ_БуферОбменаКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиент</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
   <constants>Constant.ПредставлениеСистемыУчетаЗадач</constants>
   <catalogs>Catalog.Задачи</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
@@ -84,9 +85,8 @@
   <enums>Enum.СтатусыЗадачи</enums>
   <enums>Enum.ВидыЗадач</enums>
   <reports>Report.ОтчетОТрудозатратах</reports>
-  <informationRegisters>InformationRegister.ОписанияВХранилищах</informationRegisters>
-  <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
-  <informationRegisters>InformationRegister.Трудозатраты</informationRegisters>
   <informationRegisters>InformationRegister.Напоминания</informationRegisters>
+  <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
   <informationRegisters>InformationRegister.РабочиеДни</informationRegisters>
+  <informationRegisters>InformationRegister.Трудозатраты</informationRegisters>
 </mdclass:Configuration>
