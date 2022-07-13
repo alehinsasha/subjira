@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0974063a-7a9c-4b4a-84a4-95cb8976c11f">
+  <producedTypes>
+    <objectType typeId="bffccf44-08d3-4fb8-ab20-df210d05bd03" valueTypeId="81b923f0-e0d6-4f30-bd3f-4cad6ecbad75"/>
+    <managerType typeId="4472aa74-f697-4431-b4b5-3ce2be01e7de" valueTypeId="38036cd4-bb50-4e8e-9e2f-b278b89533e6"/>
+  </producedTypes>
+  <name>ОтчетОТрудозатратах1</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о трудозатратах1</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ОтчетОТрудозатратах1.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ОтчетОТрудозатратах1.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="13c509c9-7506-4bed-9da5-e7f0d7861fa3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6e77d8fe-4291-427a-91ec-d5694ebf21ee">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="47a3f5f3-ebeb-4e31-95be-d36a0f5bfd11">
+    <name>СформироватьОтчетОТрудозатратах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трудозатраты</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Задачи</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

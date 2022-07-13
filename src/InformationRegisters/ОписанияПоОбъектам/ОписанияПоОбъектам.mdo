@@ -43,6 +43,7 @@
       <types>CatalogRef.Заметки</types>
       <types>CatalogRef.Задачи</types>
       <types>CatalogRef.Проекты</types>
+      <types>CatalogRef.Замеры</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

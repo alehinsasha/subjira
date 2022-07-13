@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Алехин Александр Николаевич</vendor>
-  <version>1.0.1.5</version>
+  <version>1.0.1.7</version>
   <updateCatalogAddress>https://github.com/alehinsasha/developer_assistant/releases</updateCatalogAddress>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -85,6 +85,7 @@
   <enums>Enum.СтатусыЗадачи</enums>
   <enums>Enum.ВидыЗадач</enums>
   <reports>Report.ОтчетОТрудозатратах</reports>
+  <reports>Report.ОтчетОТрудозатратах1</reports>
   <informationRegisters>InformationRegister.Напоминания</informationRegisters>
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
   <informationRegisters>InformationRegister.РабочиеДни</informationRegisters>
