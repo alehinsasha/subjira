@@ -6,7 +6,7 @@
 	</filter>
 	<order>
 		<item xsi:type="OrderItemField">
-			<field>ДатаВремяРедактирования</field>
+			<field>ДатаВремяНачала</field>
 			<orderType>Desc</orderType>
 		</item>
 		<viewMode>Normal</viewMode>
@@ -22,6 +22,8 @@
 				<field>Владелец</field>
 				<groupType>Items</groupType>
 				<periodAdditionType>None</periodAdditionType>
+				<periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionBegin>
+				<periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</periodAdditionEnd>
 			</item>
 		</groupItems>
 	</item>

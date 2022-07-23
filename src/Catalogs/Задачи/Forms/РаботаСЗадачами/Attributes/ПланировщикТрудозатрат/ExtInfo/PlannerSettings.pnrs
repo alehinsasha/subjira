@@ -24,6 +24,10 @@
   </wrappedTimeScaleHeaderFormat>
   <periodicVariantRepetition>1</periodicVariantRepetition>
   <periodicVariantUnit>Day</periodicVariantUnit>
+  <border xsi:type="core:BorderDef">
+    <style>Single</style>
+    <width>1</width>
+  </border>
   <font xsi:type="core:AutoFont"/>
   <beginOfRepresentationPeriod>0001-01-01T00:00:00</beginOfRepresentationPeriod>
   <endOfRepresentationPeriod>0001-01-01T00:00:00</endOfRepresentationPeriod>

@@ -5,6 +5,10 @@
 		<userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</userSettingID>
 	</filter>
 	<order>
+		<item xsi:type="OrderItemField">
+			<field>ДатаВремяРедактирования</field>
+			<orderType>Desc</orderType>
+		</item>
 		<viewMode>Normal</viewMode>
 		<userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</userSettingID>
 	</order>
@@ -24,5 +28,5 @@
 		</groupItems>
 	</item>
 	<itemsViewMode>Normal</itemsViewMode>
-	<itemsUserSettingID>f7978dc5-e61c-4290-bd0c-60ebc81b082b</itemsUserSettingID>
+	<itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</itemsUserSettingID>
 </Settings>
