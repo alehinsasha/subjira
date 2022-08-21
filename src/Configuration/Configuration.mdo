@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e0252cb-32b6-46e8-be6a-46b186d10410">
-  <name>ПомощникРазработчика</name>
+  <name>SubJira</name>
   <synonym>
     <key>ru</key>
-    <value>Помощник разработчика</value>
+    <value>SubJira</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="7c63173f-932d-45b8-b40e-841bb7013cf6"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="57ceefe9-368b-4123-b94a-585b5d869645"/>
