@@ -21,15 +21,11 @@
 				<group>true</group>
 				<order>true</order>
 			</useRestriction>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Затрачено</dataPath>
 			<field>Затрачено</field>
 			<presentationExpression>ОбщегоНазначенияКлиентСервер.ПредставлениеТрудозатратСКД(Затрачено)</presentationExpression>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Задача</dataPath>
@@ -40,8 +36,6 @@
 					<v8:content>Задача</v8:content>
 				</v8:item>
 			</title>
-			<appearance/>
-			<inputParameters/>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Описание</dataPath>
@@ -106,7 +100,6 @@
 				<dcsat:tableCell>
 					<dcsat:item xsi:type="dcsat:Field">
 						<dcsat:value xsi:type="dcscor:Parameter">Задача</dcsat:value>
-						<dcsat:appearance/>
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
@@ -153,7 +146,13 @@
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Затрачено</dcsset:field>
 				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>0e2d05f7-e429-4ac3-8a77-ac555d8328c6</dcsset:userSettingID>
 			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>ef9a194c-cc73-4e13-a0e9-2ea121608433</dcsset:userSettingID>
+			</dcsset:filter>
 			<dcsset:order>
 				<dcsset:item xsi:type="dcsset:OrderItemField">
 					<dcsset:field>Задача</dcsset:field>
@@ -163,7 +162,13 @@
 					<dcsset:field>День</dcsset:field>
 					<dcsset:orderType>Asc</dcsset:orderType>
 				</dcsset:item>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>3075ac05-8476-4a61-83a7-41077cfe1542</dcsset:userSettingID>
 			</dcsset:order>
+			<dcsset:conditionalAppearance>
+				<dcsset:viewMode>Normal</dcsset:viewMode>
+				<dcsset:userSettingID>f140b9bd-3df1-4c12-9f7b-f796621f65cc</dcsset:userSettingID>
+			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
@@ -229,6 +234,8 @@
 								<dcsset:field>Описание</dcsset:field>
 								<dcsset:groupType>Items</dcsset:groupType>
 								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+								<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+								<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
 							</dcsset:item>
 						</dcsset:groupItems>
 						<dcsset:order>
@@ -257,6 +264,8 @@
 					</dcscor:item>
 				</dcsset:outputParameters>
 			</dcsset:item>
+			<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+			<dcsset:itemsUserSettingID>df684c17-913e-4e24-bfe0-8cc2c21641f2</dcsset:itemsUserSettingID>
 		</dcsset:settings>
 	</settingsVariant>
 </DataCompositionSchema>

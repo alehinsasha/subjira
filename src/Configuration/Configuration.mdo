@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Алехин Александр Николаевич</vendor>
-  <version>1.0.2.1</version>
+  <version>1.0.4.1</version>
   <updateCatalogAddress>https://github.com/alehinsasha/developer_assistant/releases</updateCatalogAddress>
   <usedMobileApplicationFunctionalities>
     <functionality>
@@ -77,6 +77,7 @@
   <commonModules>CommonModule.РМ_MarkdownСервер</commonModules>
   <commonModules>CommonModule.РМ_БуферОбменаКлиент</commonModules>
   <constants>Constant.ПредставлениеСистемыУчетаЗадач</constants>
+  <catalogs>Catalog.ВидыСекретов</catalogs>
   <catalogs>Catalog.Задачи</catalogs>
   <catalogs>Catalog.Замеры</catalogs>
   <catalogs>Catalog.Заметки</catalogs>
@@ -90,4 +91,5 @@
   <informationRegisters>InformationRegister.ОписанияПоОбъектам</informationRegisters>
   <informationRegisters>InformationRegister.РабочиеДни</informationRegisters>
   <informationRegisters>InformationRegister.Трудозатраты</informationRegisters>
+  <informationRegisters>InformationRegister.Секреты</informationRegisters>
 </mdclass:Configuration>

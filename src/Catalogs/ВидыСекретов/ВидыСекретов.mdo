@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="249b3fd3-b1d7-4d83-ab15-509435adb5d7">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d1bb2e1-4498-4d67-b38c-7cb46ef92fd0">
   <producedTypes>
-    <objectType typeId="e2f25424-bf42-42f1-8e6d-e017b9a5ca18" valueTypeId="4cc2b60e-facd-4363-91f4-7514c8b2bd0b"/>
-    <refType typeId="6f3b1bb4-fdc7-45d8-ac17-f580356a730e" valueTypeId="2913cf73-0641-4329-b802-08f67d283227"/>
-    <selectionType typeId="cdeec1d7-35b0-4a36-b3d2-5038e58dba83" valueTypeId="95d33ba2-3c80-4068-bd7e-9c17fe444628"/>
-    <listType typeId="1ef99116-6340-471d-9a97-9de7e13ad969" valueTypeId="8f96ef3f-8a24-4bed-b507-252bd99c624e"/>
-    <managerType typeId="5fc86622-a016-4c9e-a51d-8023e5f1e2ec" valueTypeId="14950a70-5440-4c4a-a60e-123a82b7dd4c"/>
+    <objectType typeId="56d4ada2-32b6-4b41-9dfe-c669b03798af" valueTypeId="3adb975d-8af6-4503-92d1-3d694a6acc95"/>
+    <refType typeId="10ca7324-9ca2-42b4-b01f-05275e40f798" valueTypeId="a6d44829-6dab-43ce-9f0a-002661b7f6c5"/>
+    <selectionType typeId="64fa6c7d-1f93-4130-a3c1-42ea0767dfd6" valueTypeId="d45819b4-0e4f-4577-be8b-37365814cc01"/>
+    <listType typeId="c6f10817-c21e-4e5d-92db-a97c45bfa928" valueTypeId="076e2d07-5bcf-4b0e-b04e-0e7b33d2e3c5"/>
+    <managerType typeId="c8df229d-2964-4e03-b683-81c511d2b9be" valueTypeId="bb7c9c67-a691-4830-b405-dc059a9fa3c8"/>
   </producedTypes>
-  <name>Описания</name>
+  <name>ВидыСекретов</name>
   <synonym>
     <key>ru</key>
-    <value>Описания</value>
+    <value>Виды секретов</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <searchStringModeOnInputByString>AnyPart</searchStringModeOnInputByString>
+  <inputByString>Catalog.ВидыСекретов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыСекретов.StandardAttribute.Code</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -78,6 +79,7 @@
     <dataHistory>Use</dataHistory>
     <name>Description</name>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -90,13 +92,10 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <createOnInput>DontUse</createOnInput>
+  <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
-  <objectPresentation>
-    <key>ru</key>
-    <value>Описание</value>
-  </objectPresentation>
+  <hierarchical>true</hierarchical>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
@@ -107,42 +106,5 @@
   <autonumbering>true</autonumbering>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
-  <defaultObjectForm>Catalog.Описания.Form.ФормаЭлемента</defaultObjectForm>
-  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-  <attributes uuid="7e19abc7-b387-4b34-9e9c-95681065c9b3">
-    <name>Текст</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <multiLine>true</multiLine>
-    <extendedEdit>true</extendedEdit>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="5e6be691-2537-47fc-89ed-74d387da964f">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="fb429194-eb06-477c-a065-9a068e434b27">
-    <name>ФормаВыбораОписания</name>
-    <synonym>
-      <key>ru</key>
-      <value>Выбор описания</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
+  <choiceMode>BothWays</choiceMode>
 </mdclass:Catalog>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4080494-c1a6-45ec-ab1c-1536a940b47b">
+  <producedTypes>
+    <selectionType typeId="b43b9036-3298-40fd-96b4-acc6baf6769b" valueTypeId="d48a7d26-2422-4ec2-b6f7-b8a2a78bf100"/>
+    <listType typeId="99f2ad1f-8a87-45c5-9832-8ac417570fe2" valueTypeId="3f9f3c11-aecf-44c0-9607-bd09b55db29e"/>
+    <managerType typeId="49893308-01a2-4ced-9554-54d5f49415cf" valueTypeId="cd36ae5c-1e72-47eb-bc58-abb25f8652b4"/>
+    <recordSetType typeId="2ed68b4e-aa4d-4997-b368-49a38e99b785" valueTypeId="16cea0c6-9e09-402c-af1d-98b88a08ceb6"/>
+    <recordKeyType typeId="ff3b2878-80b2-411e-8e18-2f76c8ab1126" valueTypeId="bae4ace2-1b22-41f4-87b5-a713e8a2c0e8"/>
+    <recordType typeId="6463257b-596b-40ac-921a-5671a8388a34" valueTypeId="eb867dcf-d900-4c3c-8689-71ac8d840c6e"/>
+    <recordManagerType typeId="6ebe35cb-9d59-4d3f-ba59-1a0557fa1898" valueTypeId="c4624df9-e4fb-4640-8140-633ade4c47a3"/>
+  </producedTypes>
+  <name>Секреты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Секреты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.Секреты.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.Секреты.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="77168e5c-f39d-477d-b8b8-65c37e4d7b5b">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f4deacd9-f111-4d00-97e3-5821c1b0c6f4">
+    <name>ВладелецСекрета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец секрета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Заметки</types>
+      <types>CatalogRef.Задачи</types>
+      <types>CatalogRef.Проекты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4b6a987f-2c28-4a81-a2e7-5c4aa821f077">
+    <name>ВидСекрета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид секрета</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыСекретов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8cb91591-3b7d-4cea-a38f-8eec22d2e643">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5e38935b-6d5e-4b71-a97c-fc99d48603e4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
