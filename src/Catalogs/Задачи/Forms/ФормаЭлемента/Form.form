@@ -11,6 +11,10 @@
     <dataPath xsi:type="form:DataPath">
       <segments>Объект.СсылкаНаСистемуУчетаЗадач</segments>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>СсылкаНаСистемуУчетаЗадачПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>СсылкаНаСистемуУчетаЗадачРасширеннаяПодсказка</name>
       <id>15</id>
