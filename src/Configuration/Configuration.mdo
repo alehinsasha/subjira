@@ -17,7 +17,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
   <vendor>Алехин Александр Николаевич</vendor>
-  <version>1.0.5.1</version>
+  <version>1.0.5.2</version>
   <updateCatalogAddress>https://github.com/alehinsasha/developer_assistant/releases</updateCatalogAddress>
   <usedMobileApplicationFunctionalities>
     <functionality>
